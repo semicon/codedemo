@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+         Image in Text Background
+    </title>
+ 
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background:#000;
+        }
+ 
+        h1 {
+            display: inline-block;
+            margin: 0;
+            font-size: 400px;
+            background-image: url('https://ivctechnologies.com/wp-content/uploads/2019/03/AdobeStock_127654333.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+    </style>
+</head>
+ 
+<body>
+    <h1>Kru Chian</h1>
+</body>
+ 
+</html>
